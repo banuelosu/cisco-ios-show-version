@@ -17,3 +17,12 @@ pip3 install getpass
 ```
 python3 main.py <path-to-file>
 ```
+
+Notes:
+```
+if Command "python setup.py egg_info" failed with error code 1
+pip3 install --upgrade setuptools
+
+if fatal error: openssl/opensslv.h
+sudo apt-get install python-pip python-dev libffi-dev libssl-dev libxml2-dev libxslt1-dev libjpeg8-dev zlib1g-dev
+```
