@@ -13,3 +13,7 @@ pip3 install getpass
  - getpass
  - netmiko
  
+### How to run
+```
+python3 main.py <path-to-file>
+```
