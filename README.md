@@ -17,6 +17,7 @@ pip3 install getpass
 ```
 python3 main.py <path-to-file>
 ```
+The script will loop through the devices within the file and run 'show version'. The results will be printed to screen.
 
 Notes:
 ```
